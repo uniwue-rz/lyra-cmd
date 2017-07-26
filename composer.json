@@ -1,0 +1,21 @@
+{
+    "name": "rzuw/lyra-cmd",
+    "description": "Lyra Commandline Utility. To get Commandline interaction capability with Lyra, this library should be used.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [{
+        "name": "Pouyan Azari",
+        "email": "pouyan.azari@uni-wuerzburg.de"
+    }],
+    "autoload": {
+        "psr-0": {
+            "De\\Uniwue\\RZ\\Lyra\\CMD": "src/",
+            "De\\Uniwue\\RZ\\Lyra\\Exceptions": "src/"
+
+        }
+    },
+    "require": {
+        "kevinlebrun/colors.php": "~0.2",
+        "ext-mbstring": "*"
+    }
+}
